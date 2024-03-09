@@ -32,11 +32,11 @@ Only React Web code actions are enabled by default
 
 #### React Web
 
-- div, section, article, main, header, footer, nav, aside
+- `div`, `section`, `article`, `main`, `header`, `footer`, `nav`, `aside`
 
 #### React Native
 
-- View, ScrollView, Pressable, TouchableOpacity, Text
+- `View`, `ScrollView`, `Pressable`, `TouchableOpacity`, `Text`
 
 ## Known Issues
 
