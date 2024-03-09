@@ -1,0 +1,124 @@
+{
+	"name": "react-code-actions",
+	"displayName": "React Code Actions",
+	"description": "Code Actions for easily wrap components/elements with other components.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.87.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+    "onLanguage:typescriptreact",
+    "onLanguage:*"
+  ],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "reactCodeActions.wrapElement",
+				"title": "wraps the selected JSX element with a new element",
+				"when": "editorTextFocus && !editorReadonly"
+			}
+		],
+		"configuration": [
+			{
+				"title": "React Web",
+				"properties": {
+					"reactCodeActions.reactWeb.enableCodeActions": {
+						"type": "boolean",
+						"default": true,
+						"description": "Enables React Web specific code actions"
+					},
+					"reactCodeActions.reactWeb.folderPaths": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"default": [],
+						"description": "Enable web code actions for the specified folder paths (useful for monorepos containing both web and native code)"
+					},
+					"reactCodeActions.reactWeb.wrappingElements": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"default": [
+							"div",
+							"section",
+							"article",
+							"main",
+							"header",
+							"footer",
+							"nav",
+							"aside"
+						],
+						"description": "Specifies the wrapping elements to show up in the code actions for web"
+					}
+				}
+			},
+			{
+				"title": "React Native",
+				"properties": {
+					"reactCodeActions.reactNative.enableCodeActions": {
+						"type": "boolean",
+						"default": false,
+						"description": "Enables React Native specific code actions"
+					},
+					"reactCodeActions.reactNative.folderPaths": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"default": [],
+						"description": "Specifies the folder paths to enable code actions with React Native wrappers (useful for monorepos containing both web and native code)"
+					},
+					"reactCodeActions.reactNative.wrappingElements": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"default": [
+							"View",
+							"ScrollView",
+							"Pressable",
+							"TouchableOpacity",
+							"Text"
+						],
+						"description": "Specifies the wrapping elements to show up in the code actions for React Native"
+					}
+				}
+			},
+			{
+				"title": "General",
+				"properties": {
+					"reactCodeActions.general.enableClassNameProp": {
+						"type": "boolean",
+						"default": false,
+						"description": "Insert tailwind className prop automatically e.g <div className=''></div>"
+					}
+				}
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile && yarn run lint",
+		"lint": "eslint src --ext ts",
+		"test": "vscode-test"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.87.0",
+		"@types/mocha": "^10.0.6",
+		"@types/node": "18.x",
+		"@typescript-eslint/eslint-plugin": "^7.0.2",
+		"@typescript-eslint/parser": "^7.0.2",
+		"eslint": "^8.56.0",
+		"typescript": "^5.3.3",
+		"@vscode/test-cli": "^0.0.6",
+		"@vscode/test-electron": "^2.3.9"
+	}
+}
