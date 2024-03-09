@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.2] - 09/03/2024
+
+- Fixing typos in description
+
 ## [0.0.1] - 09/03/2024
 
 #### Initial Release

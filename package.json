@@ -1,8 +1,9 @@
 {
-	"name": "react-code-actions",
-	"displayName": "React Code Actions",
-	"description": "Code Actions for easily wrap components/elements with other components.",
-	"version": "0.0.1",
+	"name": "react-actions",
+	"displayName": "React Actions",
+	"description": "Code Actions for wrapping components/elements with other components",
+  "publisher": "kgni",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.87.0"
 	},
@@ -10,8 +11,7 @@
 		"Other"
 	],
 	"activationEvents": [
-    "onLanguage:typescriptreact",
-    "onLanguage:*"
+    "onLanguage:typescriptreact"
   ],
 	"main": "./out/extension.js",
 	"contributes": {

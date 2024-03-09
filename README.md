@@ -1,4 +1,4 @@
-# React Code Actions
+# React Actions
 
 Inspired by Flutter's code actions for easily wrapping widgets. Implemented using the Emmet command [Wrap with Abbreviation](https://docs.emmet.io/actions/wrap-with-abbreviation/)
 
