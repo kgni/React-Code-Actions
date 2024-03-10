@@ -4,6 +4,10 @@ All notable changes to the "React Code Actions" extension will be documented in 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.4] - 10/03/2024
+
+- Fixed formatting and typos in readme
+
 ## [0.0.3] - 10/03/2024
 
 - Added code action to be able to remove tags + its matching closing tag.
