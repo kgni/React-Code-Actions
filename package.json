@@ -97,6 +97,11 @@
 						"type": "boolean",
 						"default": false,
 						"description": "Insert tailwind className prop automatically e.g <div className=''></div>"
+					},
+					"reactCodeActions.general.enableRemoveTagAction": {
+						"type": "boolean",
+						"default": false,
+						"description": "Enables a remove tag action that will remove the selected tag and its matching closing tag"
 					}
 				}
 			}

@@ -117,14 +117,17 @@ export class ReactCodeActions implements vscode.CodeActionProvider {
 		}
 
 		// Remove tag action add to beginning of array - this way it will be the first action in the list (to be refactored later to be more dynamic and configurable in settings)
-		codeActions.unshift(
-			this.createCodeAction(
-				'Remove tag',
-				vscode.CodeActionKind.QuickFix,
-				'editor.emmet.action.removeTag',
-				'Remove tag'
-			)
-		);
+
+		if (generalConfig?.enableRemoveTagAction) {
+			codeActions.unshift(
+				this.createCodeAction(
+					'Remove tag',
+					vscode.CodeActionKind.QuickFix,
+					'editor.emmet.action.removeTag',
+					'Remove tag'
+				)
+			);
+		}
 
 		return codeActions;
 	}

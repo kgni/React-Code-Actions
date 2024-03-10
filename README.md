@@ -33,6 +33,8 @@ To use this extension, you need to have emmet enabled (enabled by default).
 
 - `reactCodeActions.general.enableClassNameProp` - Automatically add a `className` property to the wrapping element - _disabled by default_.
 
+- `reactCodeActions.general.enableRemoveTagAction` - Enables a remove tag action that will remove the selected tag and its matching closing tag - _disabled by default_
+
 ## Default Settings
 
 Only React Web code actions are enabled by default
