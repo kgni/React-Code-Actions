@@ -4,7 +4,10 @@ Inspired by Flutter's code actions for easily wrapping widgets. Implemented usin
 
 ## Features
 
-- **Code Actions:** Easily wrap components with elements or components using code actions.
+- **Code Actions:**
+  - Easily wrap components with elements/components or remove.
+  - Remove tags + its matching closing tag
+  
 - **Environment-sensitive Wrappers:** Define wrapping components based on React Web or React Native.
 - **Monorepo Support:** Option to specify paths where the React Web and React Native code actions should be applied
 
