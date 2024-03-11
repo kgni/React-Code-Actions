@@ -7,7 +7,12 @@ Inspired by Flutter's code actions for easily wrapping widgets. Implemented usin
 **Code Actions:**
 
 - Wrap components with elements/components.
+
+![GIF](https://media.cleanshot.cloud/media/80486/6jWVDQhD1B2GRpOEV8aGcwVt0N0koQ19jdyF2QGm.gif?Expires=1710174933&Signature=q8ts6xPAZBe45qlHOqYAjBEmRbxS4-DdUvIZisBO75mPdJhMIzQCjdpYtEOmeGvXZNTTLF31Ix9MLvaioRZ-yCMOJcXYwnb4ftTefu4LCqbx0iTIJZFSAR0v1NItJ6xHr~ykWKwAsOjyFvvhHMvOWfrJ9MqIxbgF-IYtaUMCubsT59rmTjMFZ73MexqZrqn1-zq9l2kKhwjGsbe06VNhtWhRsDqWbKbKKFIfdiOzWpFhB8QDI9fsDsQoI86qYuneMIOe1sExJV096rmY0ro7qP0ho1CkuNsa4PPVxqJIeu5DZbG9UUZjUWlDNLtZWXbdWHrsbJgj-WxPc9JAqx-7NA__&Key-Pair-Id=K269JMAT9ZF4GZ)
+
 - Remove tag + its matching closing tag
+
+![GIF](https://media.cleanshot.cloud/media/80486/NQ0E0IXfRDLGtubwjw2jNKWmfy0hFPuVMo8Sk2k4.gif?Expires=1710175005&Signature=FK8DayaQPTrJZln2io~2gLbBRjRT6WS~QF5smhSFNBEVK7LJDDDklllkDgDEIPSnpYbZhzNIyin2icZgaIOJw~cWU78C0V9AFPE6jP6i2rsBDyUEwUzPyFUsrvVb4awjmWfpAzAwoGHJygIRiECOd58~CfmoblJaElzIHblzeBVXWKjZmdCcNop22IsNtc~N~AGjC58S4s6peFJohYApHV1WdKBNknGjKXN~YTd1NdURcLRme8oweez2GDSzLOz1hBD7hI-n9ToyDGhhSL2wVgZiyHCvkJLCKcSrPzR7be2aF5GT7fQnnTpg0onpwUMovqARZX4D6jN7vyeMS1b9ZQ__&Key-Pair-Id=K269JMAT9ZF4GZ)
 
 **Environment-sensitive Wrappers:**
 
