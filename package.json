@@ -2,8 +2,9 @@
 	"name": "react-actions",
 	"displayName": "React Actions",
 	"description": "Code Actions for wrapping components/elements with other components",
+	"icon": "src/images/react_action_icon_128x128.png",
   "publisher": "kgni",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"engines": {
 		"vscode": "^1.87.0"
 	},
