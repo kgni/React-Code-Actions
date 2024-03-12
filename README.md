@@ -8,13 +8,11 @@ Inspired by Flutter's code actions for easily wrapping widgets. Implemented usin
 
 - Wrap components with elements/components.
 
-![GIF](https://github.com/kgni/React-Code-Actions/assets/84397151/a043a1ff-fadd-406a-9834-913df86e6032)
-
+![GIF](https://github.com/kgni/React-Code-Actions/assets/84397151/de30238a-48b4-481a-8688-9b2442a1858f)
 
 - Remove tag and its matching closing tag
 
-![GIF](https://github.com/kgni/React-Code-Actions/assets/84397151/de30238a-48b4-481a-8688-9b2442a1858f)
-
+![GIF](https://github.com/kgni/React-Code-Actions/assets/84397151/a043a1ff-fadd-406a-9834-913df86e6032)
 
 **Environment-sensitive Wrappers:**
 
