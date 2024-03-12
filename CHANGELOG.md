@@ -4,6 +4,10 @@ All notable changes to the "React Code Actions" extension will be documented in 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.7] - 12/03/2024
+
+- Fixed GIF examples in README
+
 ## [0.0.6] - 10/03/2024
 
 - Added GIF examples to demonstrate functionality
