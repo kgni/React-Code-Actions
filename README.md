@@ -8,11 +8,13 @@ Inspired by Flutter's code actions for easily wrapping widgets. Implemented usin
 
 - Wrap components with elements/components.
 
-![GIF](https://media.cleanshot.cloud/media/80486/6jWVDQhD1B2GRpOEV8aGcwVt0N0koQ19jdyF2QGm.gif?Expires=1710174933&Signature=q8ts6xPAZBe45qlHOqYAjBEmRbxS4-DdUvIZisBO75mPdJhMIzQCjdpYtEOmeGvXZNTTLF31Ix9MLvaioRZ-yCMOJcXYwnb4ftTefu4LCqbx0iTIJZFSAR0v1NItJ6xHr~ykWKwAsOjyFvvhHMvOWfrJ9MqIxbgF-IYtaUMCubsT59rmTjMFZ73MexqZrqn1-zq9l2kKhwjGsbe06VNhtWhRsDqWbKbKKFIfdiOzWpFhB8QDI9fsDsQoI86qYuneMIOe1sExJV096rmY0ro7qP0ho1CkuNsa4PPVxqJIeu5DZbG9UUZjUWlDNLtZWXbdWHrsbJgj-WxPc9JAqx-7NA__&Key-Pair-Id=K269JMAT9ZF4GZ)
+![GIF](https://github.com/kgni/React-Code-Actions/assets/84397151/a043a1ff-fadd-406a-9834-913df86e6032)
 
-- Remove tag + its matching closing tag
 
-![GIF](https://media.cleanshot.cloud/media/80486/NQ0E0IXfRDLGtubwjw2jNKWmfy0hFPuVMo8Sk2k4.gif?Expires=1710175005&Signature=FK8DayaQPTrJZln2io~2gLbBRjRT6WS~QF5smhSFNBEVK7LJDDDklllkDgDEIPSnpYbZhzNIyin2icZgaIOJw~cWU78C0V9AFPE6jP6i2rsBDyUEwUzPyFUsrvVb4awjmWfpAzAwoGHJygIRiECOd58~CfmoblJaElzIHblzeBVXWKjZmdCcNop22IsNtc~N~AGjC58S4s6peFJohYApHV1WdKBNknGjKXN~YTd1NdURcLRme8oweez2GDSzLOz1hBD7hI-n9ToyDGhhSL2wVgZiyHCvkJLCKcSrPzR7be2aF5GT7fQnnTpg0onpwUMovqARZX4D6jN7vyeMS1b9ZQ__&Key-Pair-Id=K269JMAT9ZF4GZ)
+- Remove tag and its matching closing tag
+
+![GIF](https://github.com/kgni/React-Code-Actions/assets/84397151/de30238a-48b4-481a-8688-9b2442a1858f)
+
 
 **Environment-sensitive Wrappers:**
 
